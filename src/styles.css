@@ -1,7 +1,73 @@
-h1 {
+body {
+  font-family: "Roboto";
+  background-color: #153c55;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/Kenshi-Yonezu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 280px;
+}
+
+header h1 {
   font-family: "Playfair Display";
-  font-size: 128px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-size: 100px;
+  line-height: 1;
+  margin: 30px 0px 30px;
+}
+
+header h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  color: white;
+  background-color: #885df1;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 32px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0px;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
 }
