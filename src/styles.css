@@ -18,12 +18,16 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+}
+
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
-  max-width: 1200px;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -76,6 +80,7 @@ main a {
 
 main {
   background-color: white;
+  padding-bottom: 15px;
 }
 
 main h2 {
@@ -108,12 +113,86 @@ main p {
   line-height: 1.5;
 }
 
+.main-body {
+  padding-right: 100px;
+}
+
+.secondary-section {
+  background-image: linear-gradient(rgba(0, 29, 56, 0.8), rgba(0, 29, 56, 0.8)),
+    url("../images/Kenshi-Yonezu-main-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.secondary-section h3 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  margin: 0;
+}
+
+.secondary-section h4 {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  padding: 32px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px 0px rgba(7, 5, 20, 0.2);
+}
+
+.card-header {
+  text-align: justify;
+  padding: 24px 32px;
+  border-bottom: 1px solid #eeebf8;
+}
+
+.card-info {
+  text-align: justify;
+  padding: 12px 32px;
+}
+
+.card h4 {
+  color: #272044;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.card h5 {
+  color: #272044;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.card p {
+  margin: 0;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 29, 56, 0.8), rgba(0, 29, 56, 0.8)),
     url("../images/Kenshi-Yonezu-Footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 15px;
 }
 
 footer h4 {
